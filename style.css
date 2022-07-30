@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+
+/* Colors */
+
+
+/* 
+ button color #FF505F ;
+font color #FFC233
+*/
+
+.container {
+    /* padding: 2%; */
+    background: no-repeat linear-gradient(rgba(44, 58, 93, 0.7), rgba(25, 30, 70, 0.774)), url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ------------------------------ */
+
+
+/* ---------- NAVBAR ------------ */
+
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.navbar {
+    /* display: flex; */
+    /* padding: 20px 20px; */
+    margin: 20px;
+    /* margin-left: 0; */
+    /* gap: 20px; */
+}
+
+.logo {
+    width: 100px;
+}
+
+.list {
+    font-size: 15px;
+    color: #EDBF69;
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+
+.list>li {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.list-item {
+    cursor: pointer;
+}
+
+.button-small {
+    color: #FFFFFF;
+    font-size: 15px;
+    background-color: #FF505F;
+    width: 100px;
+    height: 40px;
+    border: none;
+    align-self: center;
+    align-content: center;
+}
+
+.button-small:hover {
+    cursor: pointer;
+    color: #1f1f1f
+}
+
+
+/* ------------------------------ */
+
+
+/* ------------------------------ */
+
+
+/* ---------- HERO ------------ */
+
+
+/* ------------------------------ */
+
+.hero {
+    /* margin: 10px 10%; */
+    /* margin-top: 5%; */
+    padding: 30px;
+    text-align: center;
+}
+
+.hero-heading {
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: #FFC233;
+}
+
+.button-large {
+    margin-top: 40px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #FF505F;
+    width: 250px;
+    height: 50px;
+    border: none;
+}
+
+.button-large:hover {
+    cursor: pointer;
+    color: #1f1f1f;
+}
+
+.bottom {
+    text-align: right;
+    height: 100x;
+    position: absolute;
+    right: 50px;
+    bottom: 50px
+    /* background-color: #fff; */
+}
+
+div img {
+    width: 100px;
+    /* background-color: red; */
+}
